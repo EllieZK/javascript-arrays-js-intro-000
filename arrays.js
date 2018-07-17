@@ -35,10 +35,15 @@ function accessElementInArray(){
 function destructivelyRemoveElementFromBeginningOfArray(){
   const days = ["Monday", "Tuesday", "Wednesday"]
   days.shift()
-  return days 
+  return days
 }
 
 function removeElementFromBeginningOfArray(){
   var cats = ["Milo", "Garfield", "Otis"]
   return cats.slice(1)
+}
+
+function destructivelyRemoveElementFromEndOfArray(){
+  var iceCreams = ["chocolate", "vanilla", "raspberry"]
+  return iceCreams.pop()
 }
