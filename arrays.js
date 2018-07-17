@@ -48,3 +48,8 @@ function destructivelyRemoveElementFromEndOfArray(){
   iceCreams.pop()
   return iceCreams
 }
+
+function removeElementFromEndOfArray(){
+  var iceCreams = ["chocolate", "vanilla", "raspberry"]
+  return iceCreams.slice(0, iceCreams.length - 1)
+}
