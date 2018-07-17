@@ -37,3 +37,8 @@ function destructivelyRemoveElementFromBeginningOfArray(){
   days.shift()
   return days 
 }
+
+function removeElementFromBeginningOfArray(){
+  var cats = ["Milo", "Garfield", "Otis"]
+  return cats.slice(1)
+}
