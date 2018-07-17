@@ -31,3 +31,9 @@ function accessElementInArray(){
   var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
   return (entrepreneurs[0]);
 }
+
+function destructivelyRemoveElementFromBeginningOfArray(){
+  const days = ["Monday", "Tuesday", "Wednesday"]
+  days.shift()
+  return days 
+}
