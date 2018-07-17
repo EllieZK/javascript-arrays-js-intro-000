@@ -14,9 +14,8 @@ function destructivelyAddElementToBeginningOfArray(chocolateBars, foo) {
   return chocolateBars
 }
 
-function addElementToEndOfArray(){
-  var cities = ["New York", "San Francisco"]
-  return [...cities, "Philadelphia"]
+function addElementToEndOfArray(chocolateBars, foo){
+  return [...chocolateBars, "foo"]
 }
 
 function destructivelyAddElementToEndOfArray(array, element){
