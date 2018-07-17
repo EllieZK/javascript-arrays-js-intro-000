@@ -23,7 +23,7 @@ function addElementToEndOfArray(){
 
 function destructivelyAddElementToEndOfArray(){
   var cities = ["New York", "San Francisco"]
-  cities = [...cities, "Philadelphia"]
+  cities.push("Philadelphia")
   return cities
 }
 
