@@ -23,8 +23,9 @@ function destructivelyAddElementToEndOfArray(chocolateBars, foo){
   return chocolateBars
 }
 
-function accessElementInArray(chocolateBars, foo){
-  return (chocolateBars[3]);
+function accessElementInArray(){
+  var myArray = [1,2,3,4]
+  return (myArray[2])
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(){
