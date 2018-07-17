@@ -12,7 +12,7 @@ function addElementToBeginningOfArray(){
 
 function destructivelyAddElementToBeginningOfArray() {
   var cities = ["New York", "San Francisco"]
-  cities = ["Philadelphia", ...cities]
+  cities.unshift("Philadelphia")
   return cities
 }
 
@@ -23,7 +23,7 @@ function addElementToEndOfArray(){
 
 function destructivelyAddElementToEndOfArray(){
   var cities = ["New York", "San Francisco"]
-  cities.unshift("Philadelphia")
+  cities = [...cities, "Philadelphia"]
   return cities
 }
 
