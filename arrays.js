@@ -15,3 +15,12 @@ function destructivelyAddElementToBeginningOfArray() {
   cities = ["Philadelphia", ...cities]
   return cities
 }
+
+function addElementToEndOfArray(){
+  var cities = ["New York", "San Francisco"]
+  return [...cities, "Philadelphia"]
+}
+
+function destructivelyAddElementToEndOfArray(){
+  
+}
