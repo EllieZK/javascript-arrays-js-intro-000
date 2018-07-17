@@ -28,8 +28,8 @@ function accessElementInArray(){
   return (myArray[2])
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(array){
-  const myArray = [1,2,3]
+function destructivelyRemoveElementFromBeginningOfArray(myArray){
+  var myArray = [1,2,3]
   myArray.shift()
   return myArray
 }
@@ -40,7 +40,7 @@ function removeElementFromBeginningOfArray(){
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  const moreArray = [1,2,3]
+  var moreArray = [1,2,3]
   moreArray.pop()
   return moreArray
 }
