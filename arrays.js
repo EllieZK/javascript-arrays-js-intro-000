@@ -9,10 +9,9 @@ function addElementToBeginningOfArray(chocolateBars, foo){
   return ["foo", ...chocolateBars]
 }
 
-function destructivelyAddElementToBeginningOfArray() {
-  var cities = ["New York", "San Francisco"]
-  cities.unshift("Philadelphia")
-  return cities
+function destructivelyAddElementToBeginningOfArray(chocolateBars, foo) {
+  chocolateBars.unshift("foo")
+  return chocolateBars
 }
 
 function addElementToEndOfArray(){
