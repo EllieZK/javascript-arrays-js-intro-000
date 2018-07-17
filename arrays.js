@@ -20,7 +20,7 @@ function addElementToEndOfArray(){
   return [...cities, "Philadelphia"]
 }
 
-function destructivelyAddElementToEndOfArray(){
+function destructivelyAddElementToEndOfArray(array, element){
   var cities = ["New York", "San Francisco"]
   cities.push("Philadelphia")
   return cities
