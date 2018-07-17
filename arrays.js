@@ -5,7 +5,7 @@ var chocolateBars = [
   "skittles"
 ]
 
-function addElementToBeginningOfArray(array, element){
+function addElementToBeginningOfArray(chocolateBars, foo){
   return ["Crunch", ...chocolateBars]
 }
 
