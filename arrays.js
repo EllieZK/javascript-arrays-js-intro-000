@@ -18,15 +18,13 @@ function addElementToEndOfArray(chocolateBars, foo){
   return [...chocolateBars, "foo"]
 }
 
-function destructivelyAddElementToEndOfArray(array, element){
-  var cities = ["New York", "San Francisco"]
-  cities.push("Philadelphia")
-  return cities
+function destructivelyAddElementToEndOfArray(chocolateBars, foo){
+  chocolateBars.push("foo")
+  return chocolateBars
 }
 
-function accessElementInArray(){
-  var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
-  return (entrepreneurs[0]);
+function accessElementInArray(chocolateBars, foo){
+  return (chocolateBars[0]);
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(){
