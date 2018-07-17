@@ -28,7 +28,7 @@ function accessElementInArray(){
   return (myArray[2])
 }
 
-function destructivelyRemoveElementFromBeginningOfArray(){
+function destructivelyRemoveElementFromBeginningOfArray(array){
   myArray = [1,2,3]
   myArray.shift()
   return myArray
@@ -39,7 +39,7 @@ function removeElementFromBeginningOfArray(){
   return myArray.slice(1)
 }
 
-function destructivelyRemoveElementFromEndOfArray(){
+function destructivelyRemoveElementFromEndOfArray(array){
   var iceCreams = ["chocolate", "vanilla", "raspberry"]
   iceCreams.pop()
   return iceCreams
