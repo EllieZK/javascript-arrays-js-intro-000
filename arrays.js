@@ -45,5 +45,6 @@ function removeElementFromBeginningOfArray(){
 
 function destructivelyRemoveElementFromEndOfArray(){
   var iceCreams = ["chocolate", "vanilla", "raspberry"]
-  return iceCreams.pop()
+  iceCreams.pop()
+  return iceCreams
 }
