@@ -28,9 +28,9 @@ function accessElementInArray(chocolateBars, foo){
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(){
-  const days = ["Monday", "Tuesday", "Wednesday"]
-  days.shift()
-  return days
+  myArray = [1,2,3]
+  myArray.shift()
+  return myArray
 }
 
 function removeElementFromBeginningOfArray(){
