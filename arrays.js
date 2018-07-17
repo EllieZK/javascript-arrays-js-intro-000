@@ -26,3 +26,8 @@ function destructivelyAddElementToEndOfArray(){
   cities = [...cities, "Philadelphia"]
   return cities
 }
+
+function accessElementInArray(){
+  var entrepreneurs = ["Elizabeth Holmes", "Laurene Powell Jobs", "Arianna Huffington"];
+  return (entrepreneurs[0]);
+}
