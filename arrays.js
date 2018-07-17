@@ -39,7 +39,7 @@ function removeElementFromBeginningOfArray(){
   return myArray.slice(1)
 }
 
-function destructivelyRemoveElementFromEndOfArray(array){
+function destructivelyRemoveElementFromEndOfArray(moreArray){
   var moreArray = [1,2,3]
   moreArray.pop()
   return moreArray
